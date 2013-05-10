@@ -47,7 +47,7 @@ Because there is no "delay" option, Unison Menubar will not _automatically_ run 
 
 However, the line "command = ssh a.example.com unison work" will allow you, while working on b.example.com (by invoking a submenu item on Unison Menubar running there) to to have Unison Menubar run the Unison on the work profile remotely on a.example.com.   When this happens, Unison Menubar (on b.example.com) will capture the output and put in the ~/.unison_menubar directory, where it will be used by the various Unison Menubars running to show the status as described before).  
 
-You can add additional sections for every profile you want to monitor.  
+You can add additional sections for every profile you want to monitor.  You have to add a section on every machine/account for every profile you want Unison Menubar on that machine/account to monitor.
 
 ### CONFIGURATION STEP 2 (ADD LINES TO UNISON .prf FILE)
 
